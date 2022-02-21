@@ -5,8 +5,8 @@ import Zoom from '@mui/material/Zoom';
 
 function CreateArea(props) {
   const [noteText, setNoteText] = useState({
-    title: "Note title",
-    content: "Take a note..."
+    title: "",
+    content: ""
   });
   const [state, setState]=useState(false)
 
